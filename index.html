@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Página com SCSS, Tailwind e modo escuro</title>
+</head>
+
+<body>
+    <header class="bg-gray-900 text-white py-2">
+        <nav>
+            <ul class="flex gap-4 list-none">
+                <li class="px-2 py-1 break-after-auto"><a href="http://" target="_blank" rel="noopener noreferrer">1</a>
+                </li>
+                <li class="px-2 py-1"><a href="http://" target="_blank" rel="noopener noreferrer">2</a></li>
+                <li class="px-2 py-1"><a href="http://" target="_blank" rel="noopener noreferrer">3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="grid grid-cols-2 gap-4 min-h-screen">
+        <aside class="col-span-1 bg-gray-100 flex flex-col justify-center">
+            <section class=" bg-gray-200 my-8 px-4">
+                <h2 class=" font-bold text-3xl mb-4">Publicidade 1</h2>
+                <a href="https://images.pexels.com/photos/6001805/pexels-photo-6001805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" target="_blank" rel="noopener noreferrer"><img src="https://images.pexels.com/photos/6001805/pexels-photo-6001805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" srcset=""></a>
+            </section>
+            <section class="bg-gray-200 my-8 px-4">
+                <h2 class=" font-bold text-3xl mb-4">Publicidade 2</h2>
+                <a href="https://images.pexels.com/photos/704623/pexels-photo-704623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" target="_blank" rel="noopener noreferrer"><img src="https://images.pexels.com/photos/704623/pexels-photo-704623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" srcset=""></a>
+            </section>
+        </aside>
+        <section class="col-span-1">
+            <article class="my-8 px-4">
+                <h2 class="text-3xl mb-4 font-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique voluptate consequatur aliquam
+                    harum officiis dicta? Ad sunt laboriosam, debitis fuga exercitationem aperiam! Quam molestiae hic
+                    nam in reiciendis obcaecati distinctio.
+                </p>
+            </article>
+            <article class="my-8 px-4">
+                <h2 class="text-3xl mb-4 font-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta recusandae blanditiis natus fugit!
+                    Sint voluptate ratione quasi earum porro sed possimus quibusdam accusamus voluptatem? Perferendis
+                    consequuntur inventore nostrum facere rerum.
+                </p>
+            </article>
+        </section>
+    </main>
+    <footer class="bg-gray-900 text-white py-2">
+        <nav>
+            <ul class="flex gap-4 list-none">
+                <li class="px-2 py-1 break-after-auto"><a href="http://" target="_blank" rel="noopener noreferrer">1</a>
+                </li>
+                <li class="px-2 py-1"><a href="http://" target="_blank" rel="noopener noreferrer">2</a></li>
+                <li class="px-2 py-1"><a href="http://" target="_blank" rel="noopener noreferrer">3</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
