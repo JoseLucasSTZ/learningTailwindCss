@@ -18,11 +18,13 @@
                 </li>
                 <li class="px-2 py-1"><a href="http://" target="_blank" rel="noopener noreferrer">Contato</a></li>
                 <li class="px-2 py-1"><a href="http://" target="_blank" rel="noopener noreferrer">Sobre</a></li>
+                <li><button class="bg-gray-300 text-black py-2 px-4 rounded hover:bg-black hover:text-white"
+                        id="botaoModoEscuro" onclick="">Escurecer</button></li>
             </ul>
         </nav>
     </header>
     <main class="grid grid-cols-2 gap-2 min-h-screen">
-        <aside class="col-span-1 bg-gray-100 flex flex-col  justify-center">
+        <aside id="asidePublicidades" class="col-span-1 bg-gray-100 flex flex-col  justify-center">
             <section class=" bg-gray-100  my-2">
                 <h2 class=" text-center font-bold text-3xl mb-4">Publicidade 1</h2>
                 <a href="https://images.pexels.com/photos/6001805/pexels-photo-6001805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -44,7 +46,7 @@
                     id ad nisi accusantium porro facilis.</p>
             </section>
         </aside>
-        <section class="col-span-1">
+        <section id="secaoDesafios" class="col-span-1">
             <h1 class=" my-2 text-center text-4xl mb-4 font-bold mb-1px">Lista de desafios</h1>
             <article class="my-4 px-4 text-justify">
                 <h2 class="text-3xl mb-4 font-bold">Desafio 1</h2>
@@ -126,5 +128,23 @@
         </nav>
     </footer>
 </body>
+<script>
+    const botaoModoEscuro = document.getElementById("botaoModoEscuro");
+    const secaoDesafios = document.getElementById("secaoDesafios");
+    const asidePublicidades = document.getElementById("asidePublicidades");
+
+    /* asidePublicidades.addEventListener('mouseover', function () {
+         console.log("Passou pelas publicidades")
+     })
+ 
+     secaoDesafios.addEventListener('mouseover', function () {
+         console.log("passou pelos artigos")
+     })*/
+
+    botaoModoEscuro.addEventListener('click', function () {
+        secaoDesafios.classList.add('shadow-lg');
+        asidePublicidades.classList.add('shadow-lg');
+    });
+</script>
 
 </html>
