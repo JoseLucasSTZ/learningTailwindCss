@@ -6,46 +6,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Página com SCSS, Tailwind e modo escuro</title>
+    <title>Página com Tailwindcss e modo escuro</title>
 </head>
 
 <body>
-    <header class="bg-gray-900 text-white py-2">
+    <header class="bg-gray-900 text-white py-2 ">
         <nav>
-            <ul class="flex gap-4 list-none">
-                <li class="px-2 py-1 break-after-auto"><a href="http://" target="_blank" rel="noopener noreferrer">1</a>
+            <ul class="flex gap-4 list-none ">
+                <li class="px-2 py-1 break-after-auto"><a href="http://" target="_blank" rel="noopener noreferrer">Lista
+                        de desafios</a>
                 </li>
-                <li class="px-2 py-1"><a href="http://" target="_blank" rel="noopener noreferrer">2</a></li>
-                <li class="px-2 py-1"><a href="http://" target="_blank" rel="noopener noreferrer">3</a></li>
+                <li class="px-2 py-1"><a href="http://" target="_blank" rel="noopener noreferrer">Contato</a></li>
+                <li class="px-2 py-1"><a href="http://" target="_blank" rel="noopener noreferrer">Sobre</a></li>
             </ul>
         </nav>
     </header>
-    <main class="grid grid-cols-2 gap-4 min-h-screen">
-        <aside class="col-span-1 bg-gray-100 flex flex-col justify-center">
-            <section class=" bg-gray-200 my-8 px-4">
-                <h2 class=" font-bold text-3xl mb-4">Publicidade 1</h2>
-                <a href="https://images.pexels.com/photos/6001805/pexels-photo-6001805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" target="_blank" rel="noopener noreferrer"><img class="w-1/2" src="https://images.pexels.com/photos/6001805/pexels-photo-6001805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" srcset=""></a>
+    <main class="grid grid-cols-2 gap-2 min-h-screen">
+        <aside class="col-span-1 bg-gray-100 flex flex-col  justify-center">
+            <section class=" bg-gray-100  my-2">
+                <h2 class=" text-center font-bold text-3xl mb-4">Publicidade 1</h2>
+                <a href="https://images.pexels.com/photos/6001805/pexels-photo-6001805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="flex justify-center " target="_blank" rel="noopener noreferrer"><img class="w-1/2"
+                        src="https://images.pexels.com/photos/6001805/pexels-photo-6001805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="" srcset=""></a>
+                <p class="text-base text-justify my-1 px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Blanditiis rem nostrum enim modi harum nisi ut repellendus numquam reiciendis vitae perspiciatis
+                    praesentium officiis nulla, ab voluptatibus eaque, ratione tenetur cupiditate.</p>
             </section>
-            <section class="bg-gray-200 my-8 px-4">
-                <h2 class=" font-bold text-3xl mb-4">Publicidade 2</h2>
-                <a href="https://images.pexels.com/photos/704623/pexels-photo-704623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" target="_blank" rel="noopener noreferrer"><img class="w-1/2" src="https://images.pexels.com/photos/704623/pexels-photo-704623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" srcset=""></a>
+            <section class="bg-gray-100 my-2">
+                <h2 class=" text-center font-bold text-3xl mb-4">Publicidade 2</h2>
+                <a href="https://images.pexels.com/photos/704623/pexels-photo-704623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="flex justify-center" target="_blank" rel="noopener noreferrer"><img class="w-1/2 my-1 px-4"
+                        src="https://images.pexels.com/photos/704623/pexels-photo-704623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="" srcset=""></a>
+                <p class="text-base text-justify my-1 px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sequi quidem eos cum odit nobis beatae porro eaque facere alias ut. Quibusdam voluptate beatae nobis
+                    id ad nisi accusantium porro facilis.</p>
             </section>
         </aside>
         <section class="col-span-1">
-            <article class="my-8 px-4">
-                <h2 class="text-3xl mb-4 font-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+            <h1 class=" my-2 text-center text-4xl mb-4 font-bold mb-1px">Lista de desafios</h1>
+            <article class="my-4 px-4 text-justify">
+                <h2 class="text-3xl mb-4 font-bold">Desafio 1</h2>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique voluptate consequatur aliquam
-                    harum officiis dicta? Ad sunt laboriosam, debitis fuga exercitationem aperiam! Quam molestiae hic
-                    nam in reiciendis obcaecati distinctio.
+                    Criar um jogo de adivinhação de números, onde o usuário
+                    tenta adivinhar um número aleatório gerado pelo computador.
                 </p>
             </article>
-            <article class="my-8 px-4">
-                <h2 class="text-3xl mb-4 font-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+            <article class="my-4 px-4 text-justify">
+                <h2 class="text-3xl mb-4 font-bold">Desafio 2</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta recusandae blanditiis natus fugit!
-                    Sint voluptate ratione quasi earum porro sed possimus quibusdam accusamus voluptatem? Perferendis
-                    consequuntur inventore nostrum facere rerum.
+                    Implementar um slider de imagens que permite ao usuário
+                    navegar pelas imagens com botões ou teclas de seta.
+                </p>
+            </article>
+            <article class="my-4 px-4 text-justify">
+                <h2 class="text-3xl mb-4 font-bold">Desafio 3</h2>
+                <p>
+                    Adicionar um contador regressivo que mostre quanto tempo falta para uma data ou hora específica.
+                </p>
+            </article>
+            <article class="my-4 px-4 text-justify">
+                <h2 class="text-3xl mb-4 font-bold">Desafio 4</h2>
+                <p>
+                    Criar um jogo de adivinhação de números, onde o usuário tenta adivinhar um número aleatório gerado
+                    pelo computador.
+                </p>
+            </article>
+            <article class="my-4 px-4 text-justify">
+                <h2 class="text-3xl mb-4 font-bold">Desafio 5</h2>
+                <p>
+                    Implementar uma barra de progresso que atualiza com base no tempo gasto em uma tarefa ou atividade.
+                </p>
+            </article>
+            <article class="my-4 px-4 text-justify">
+                <h2 class="text-3xl mb-4 font-bold">Desafio 6</h2>
+                <p>
+                    Criar uma lista de tarefas com a capacidade de adicionar, excluir e marcar as tarefas como
+                    concluídas.
+                </p>
+            </article>
+            <article class="my-4 px-4 text-justify">
+                <h2 class="text-3xl mb-4 font-bold">Desafio 7</h2>
+                <p>
+                    Adicionar uma funcionalidade de pesquisa em sua página que permita ao usuário filtrar o conteúdo com
+                    base em palavras-chave.
+                </p>
+            </article>
+            <article class="my-4 px-4 text-justify">
+                <h2 class="text-3xl mb-4 font-bold">Desafio 8</h2>
+                <p>
+                    Criar um sistema de login que valide o nome de usuário e senha antes de permitir o acesso ao
+                    conteúdo restrito.
+                </p>
+            </article>
+            <article class="my-4 px-4 text-justify">
+                <h2 class="text-3xl mb-4 font-bold">Desafio 9</h2>
+                <p>
+                    Implementar um cronômetro que conta o tempo gasto em uma atividade.
+                </p>
+            </article>
+            <article class="my-4 px-4 text-justify">
+                <h2 class="text-3xl mb-4 font-bold">Desafio 10</h2>
+                <p>
+                    Adicionar um efeito hover às imagens que mostra uma sobreposição com informações adicionais.
                 </p>
             </article>
         </section>
@@ -53,10 +117,11 @@
     <footer class="bg-gray-900 text-white py-2">
         <nav>
             <ul class="flex gap-4 list-none">
-                <li class="px-2 py-1 break-after-auto"><a href="http://" target="_blank" rel="noopener noreferrer">1</a>
+                <li class="px-2 py-1 break-after-auto"><a href="http://" target="_blank"
+                        rel="noopener noreferrer">Página Inicial</a>
                 </li>
-                <li class="px-2 py-1"><a href="http://" target="_blank" rel="noopener noreferrer">2</a></li>
-                <li class="px-2 py-1"><a href="http://" target="_blank" rel="noopener noreferrer">3</a></li>
+                <li class="px-2 py-1"><a href="http://" target="_blank" rel="noopener noreferrer">Contato</a></li>
+                <li class="px-2 py-1"><a href="http://" target="_blank" rel="noopener noreferrer">Sobre</a></li>
             </ul>
         </nav>
     </footer>
